@@ -71,7 +71,7 @@ def print_dynamic_tree(height=8, frames=30, delay=0.15):
 
 if __name__ == "__main__":
     try:
-        print_dynamic_tree(8, frames=60, delay=0.12)
+        print_dynamic_tree(8, frames=60, delay=0.11)
     except KeyboardInterrupt:
         sys.stdout.write(RESET + "\n")
         sys.stdout.flush()
